@@ -63,7 +63,7 @@ const GameOver = () => {
 
         <div className="pt-12 lg:w-3/5 w-4/5 mx-auto">
           {Score > 2 ? (
-            <div className="rounded-lg animate-pulse border border-black shadow bg-pink-300 p-2 px-4">
+            <div className="rounded-lg border border-black shadow bg-pink-300 p-2 px-4">
               <div className="flex items-center border-y border-black">
                 <div className="w-1/4 bg-black rounded-2xl p-4 mr-2">
                   <Image src={pssdLogo} alt="ts logo" />
@@ -82,7 +82,7 @@ const GameOver = () => {
             </div>
           ) : (
             <div>
-              <Image src={oops} alt="try again" />
+              <Image src={ngmi} alt="try again" />
             </div>
           )}
         </div>
@@ -98,7 +98,7 @@ const GameOver = () => {
           rel="noopener noreferrer"
           href={`https://twitter.com/intent/tweet?text=I%20scored%20${Score}%20out%20of%20${
             RandomQuestions.length
-          }%20in%20%23posse%20trivia%20${"https://possequiz.netlify.app/"}`}
+          }%20in%20%23posse%20trivia%20${"https://pssssdtrivia.com/"}`}
           data-size="large"
         >
           Tweet

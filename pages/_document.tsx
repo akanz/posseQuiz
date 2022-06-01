@@ -22,7 +22,7 @@ export default function Document() {
         />
 
         <meta name="twitter:card" content="summary" />
-        <meta property="twitter:url" content="https://possequiz.netlify.app/" />
+        <meta property="twitter:url" content="https://pssssdtrivia.com/" />
         <meta
           name="twitter:title"
           content="The PossessedNft trivia | Test your #posse knowledge"

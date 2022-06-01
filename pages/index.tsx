@@ -73,24 +73,27 @@ const Home: NextPage = () => {
             />
           </div>
           <div className="flex justify-center pt-4 items-center">
-            <Link href="/play" passHref>
-              <motion.a
-                whileTap={{
-                  scale: 0.9,
-                }}
-                whileHover={{
-                  scale: 1.1,
-                }}
-              
-              >
-                <Image
-                  src={"/images/Button_start.svg"}
-                  alt="start button"
-                  width={200}
-                  height={100}
-                />
-              </motion.a>
-            </Link>
+            {Username !== "" && (
+              <Link href="/play" passHref>
+                <motion.a
+                  whileTap={{
+                    scale: 0.9,
+                  }}
+                  whileHover={{
+                    scale: 1.1,
+                  }}
+                  className="bg-gradient-to-b from-lightgreen to-darkgreen text-white font-bold text-3xl py-3 px-8 rounded-xl shadow-xl"
+                >
+                  START
+                  {/* <Image
+                    src={"/images/Button_start.svg"}
+                    alt="start button"
+                    width={200}
+                    height={100}
+                  /> */}
+                </motion.a>
+              </Link>
+            )}
           </div>
         </div>
       </section>

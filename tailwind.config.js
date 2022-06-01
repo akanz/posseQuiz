@@ -7,7 +7,9 @@ module.exports = {
     extend: {
       colors: {
         wheat: '#FAF2F2',
-        brown: '#832F2F'
+        brown: '#832F2F',
+        darkgreen: '#58942D',
+        lightgreen: '#91D742'
       },
       height: {
         "1/10": '10%',
