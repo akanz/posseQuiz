@@ -5,6 +5,7 @@ import { toPng } from "html-to-image";
 import { useRouter } from "next/router";
 import oops from "../public/images/oops.svg";
 import { BsTwitter } from "react-icons/bs";
+import pssdLogo from "../public/images/pssdLogo.svg";
 import ngmi from "../public/images/ngmi.gif";
 import Image from "next/image";
 
@@ -49,8 +50,8 @@ const GameOver = () => {
   };
 
   return (
-    <div className="border-black w-11/12 mx-auto md:pt-24 text-center">
-      <div ref={ref} className="bg-wheat p-4 md:p-8">
+    <div className="border-black md:w-11/12 mx-auto md:pt-24 text-center">
+      <div ref={ref} className="bg-wheat pt-24 pb-8 md:p-8">
         <h1 className="text-xl md:text-4xl my-3 font-semibold">
           You scored {Score} out of {RandomQuestions.length}!
         </h1>
@@ -62,22 +63,26 @@ const GameOver = () => {
 
         <div className="pt-12 lg:w-3/5 w-4/5 mx-auto">
           {Score > 2 ? (
-            <div className="rounded-lg animate-pulse border border-black shadow bg-pink-300 p-2">
-              <div className="my-8">
-                <h3 className="font-semibold text-xl my-2 border-b border-black p-1">
-                  {Username}
-                </h3>
+            <div className="rounded-lg animate-pulse border border-black shadow bg-pink-300 p-2 px-4">
+              <div className="flex items-center border-y border-black">
+                <div className="w-1/4 bg-black rounded-2xl p-4 mr-2">
+                  <Image src={pssdLogo} alt="ts logo" />
+                </div>
+                <div className="my-3 md:my-6 w-3/4">
+                  <h3 className="font-semibold text-xl my-2 border-b border-black p-1">
+                    {Username}
+                  </h3>
 
-                <h3 className="text-lg font-semibold  my-2 border-b border-black p-1">
-                  POTENTIAL TEST SUBJECT
-                </h3>
+                  <h3 className="text-lg font-semibold  my-2 border-b border-black p-1">
+                    POTENTIAL TEST SUBJECT
+                  </h3>
+                </div>
               </div>
-
               <div className="h-8 bg-black my-2"></div>
             </div>
           ) : (
             <div>
-              <Image src={ngmi} alt="try again" />
+              <Image src={oops} alt="try again" />
             </div>
           )}
         </div>
@@ -93,7 +98,7 @@ const GameOver = () => {
           rel="noopener noreferrer"
           href={`https://twitter.com/intent/tweet?text=I%20scored%20${Score}%20out%20of%20${
             RandomQuestions.length
-          }%20in%20%23posse%20trivia?url=${"https://possequiz.netlify.app/"}`}
+          }%20in%20%23posse%20trivia%20${"https://possequiz.netlify.app/"}`}
           data-size="large"
         >
           Tweet
