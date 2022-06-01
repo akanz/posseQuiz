@@ -91,7 +91,9 @@ const GameOver = () => {
           className="twitter-share-button gameOverBtn flex items-center"
           target={Username ? "_blank" : "_self"}
           rel="noopener noreferrer"
-          href={`https://twitter.com/intent/tweet?text=I%20scored%20${Score}%20out%20of%20${RandomQuestions.length}%20in%20%23posse%20trivia`}
+          href={`https://twitter.com/intent/tweet?text=I%20scored%20${Score}%20out%20of%20${
+            RandomQuestions.length
+          }%20in%20%23posse%20trivia?url=${"https://possequiz.netlify.app/"}`}
           data-size="large"
         >
           Tweet

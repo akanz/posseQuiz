@@ -8,6 +8,33 @@ export default function Document() {
           name="description"
           content="#Pssssd quiz brought to you by possesseddevs"
         />
+        <meta
+          property="og:title"
+          content="The PossessedNft trivia | Test your #posse knowledge"
+        />
+        <meta
+          property="og:description"
+          content="#Pssssd quiz brought to you by possesseddevs"
+        />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/VTq5dsv/total-Posse.jpg"
+        />
+
+        <meta name="twitter:card" content="summary" />
+        <meta property="twitter:url" content="https://possequiz.netlify.app/" />
+        <meta
+          name="twitter:title"
+          content="The PossessedNft trivia | Test your #posse knowledge"
+        />
+        <meta
+          name="twitter:description"
+          content="#Pssssd quiz brought to you by possesseddevs"
+        />
+        <meta
+          name="twitter:image"
+          content="https://i.ibb.co/VTq5dsv/total-Posse.jpg"
+        />
         <link rel="icon" href="/images/pssdLogo.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
