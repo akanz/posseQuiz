@@ -24,8 +24,10 @@ const Options = ({
       whileTap={{ scale: disable ? "" : 0.9 }}
       whileHover={{ scale: disable ? "" : 1.05 }}
       className={`${
-        Select && answer.id === item.id
-          ? "bg-black text-white"
+        Select && answer.id === item.id && item.answer
+          ? "bg-green-600 text-white"
+          : Select && answer.id === item.id && !item.answer
+          ? "bg-red-700 text-white"
           : "border-gray-400 text-black"
       }  border-2 p-2 rounded-md hover:opacity-60 cursor-pointer`}
       onClick={() => {
