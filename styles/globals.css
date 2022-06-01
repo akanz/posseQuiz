@@ -1,15 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  @apply h-screen w-screen bg-wheat overflow-hidden tracking-widest;
 }
 
+.gif > span {
+  @apply h-screen w-full !important;
+}
+
+.gameBtn {
+  @apply underline mx-4 cursor-pointer hover:opacity-60;
+}
+
+.gameOverBtn {
+  @apply bg-black rounded text-white p-2 px-6 m-3;
+}
+
+.notice {
+  @apply text-xl font-semibold  my-2 border-b border-black p-1;
+}
 a {
   color: inherit;
   text-decoration: none;
 }
+button:disabled {
+  cursor: not-allowed;
+}
+
+.header {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+
 
 * {
   box-sizing: border-box;
