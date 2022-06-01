@@ -60,8 +60,7 @@ const Home: NextPage = () => {
             />
           </div>
           <div className="text-xl text-center">
-            See how much you know about the Possessed Community blah blah blah
-            blah blah
+            See how much you know about the Possessed Community
           </div>
           <div className="p-2 flex justify-center">
             <input
@@ -82,7 +81,7 @@ const Home: NextPage = () => {
                 whileHover={{
                   scale: 1.1,
                 }}
-                className='animate-bounce'
+              
               >
                 <Image
                   src={"/images/Button_start.svg"}
