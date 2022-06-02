@@ -3,7 +3,7 @@ import { questionParams } from "../types";
 export function GenerateRandomNumbers() {
   let arr = [];
   while (arr.length < 6) {
-    var r = Math.floor(Math.random() * 120);
+    var r = Math.floor(Math.random() * 132);
     if (arr.indexOf(r) === -1) arr.push(r);
   }
 

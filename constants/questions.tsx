@@ -1905,7 +1905,7 @@ export const questions: questionParams[] = [
   },
   {
     id: 71,
-    title: "Which of these is a pssd community?",
+    title: "Which of these is a pssssd community?",
     options: [
       {
         id: 1,
@@ -3501,7 +3501,8 @@ export const questions: questionParams[] = [
   },
   {
     id: 130,
-    title: "On the recent space by @metaverse_hq With @thepossessednft, Tom was reluctant to share further plans the team was having with a partner. What partner was this?",
+    title:
+      "On the recent space by @metaverse_hq With @thepossessednft, Tom was reluctant to share further plans the team was having with a partner. What partner was this?",
     options: [
       {
         id: 1,
@@ -3530,7 +3531,6 @@ export const questions: questionParams[] = [
     id: 131,
     title: "Who among the following is a dev of the Possessed?",
     options: [
-      
       {
         id: 1,
         name: "Mr wolf",
@@ -3553,5 +3553,32 @@ export const questions: questionParams[] = [
       },
     ],
     correctAns: "Chrisxvd",
+  },
+  {
+    id: 132,
+    title: "What pet does luuminize have?",
+    options: [
+      {
+        id: 1,
+        name: "Wolf",
+        answer: false,
+      },
+      {
+        id: 2,
+        name: "Sheep",
+        answer: false,
+      },
+      {
+        id: 3,
+        name: "Dog",
+        answer: true,
+      },
+      {
+        id: 4,
+        name: "Snake",
+        answer: false,
+      },
+    ],
+    correctAns: "Dog",
   },
 ];
