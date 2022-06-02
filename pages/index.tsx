@@ -12,6 +12,7 @@ import { ContextTypeParams } from "../types";
 import { QuizContext } from "./_app";
 
 const Home: NextPage = () => {
+  
   const { setRandomQuestions, setUsername, Username } = useContext(
     QuizContext
   ) as ContextTypeParams;
@@ -22,7 +23,7 @@ const Home: NextPage = () => {
   //   setRandomQuestions(randomQ);
   // }, []);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     inputRef.current && inputRef.current.focus();
   }, []);
 
