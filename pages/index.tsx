@@ -12,8 +12,7 @@ import { ContextTypeParams } from "../types";
 import { QuizContext } from "./_app";
 
 const Home: NextPage = () => {
-  
-  const { setRandomQuestions, setUsername, Username } = useContext(
+  const { setUsername, Username } = useContext(
     QuizContext
   ) as ContextTypeParams;
   const randomQ = GenerateRandomNumbers();
@@ -26,6 +25,10 @@ const Home: NextPage = () => {
   useEffect(() => {
     inputRef.current && inputRef.current.focus();
   }, []);
+
+  const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setUsername(e.target.value);
+  };
 
   return (
     <div className="relative h-screen">
@@ -69,7 +72,7 @@ const Home: NextPage = () => {
               className="bg-transparent text-center outline-none focus:border-0 w-4/5 p-2 text-lg"
               type="text"
               value={Username}
-              onChange={(e) => setUsername(e.target.value)}
+              onChange={handleInput}
               placeholder="Enter your twitter username"
             />
           </div>

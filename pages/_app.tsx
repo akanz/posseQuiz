@@ -15,12 +15,6 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   const audioRef = useRef<HTMLAudioElement>(null);
 
-  useEffect(() => {
-    if (audioRef.current) {
-      audioRef.current.play();
-    }
-  }, [audioRef]);
-
   return (
     <QuizContext.Provider
       value={{
@@ -38,7 +32,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         setQIndex,
       }}
     >
-      <audio ref={audioRef} id="audio" loop muted={false}>
+      <audio ref={audioRef} id="audio" autoPlay loop muted={false}>
         <source src="/audio/psssd.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>

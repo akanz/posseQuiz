@@ -1281,7 +1281,7 @@ export const questions: questionParams[] = [
   },
   {
     id: 48,
-    title: "Which of the following not is a lab hazmat?",
+    title: "Which of the following is not is a lab hazmat?",
     options: [
       {
         id: 1,
@@ -1579,7 +1579,7 @@ export const questions: questionParams[] = [
   },
   {
     id: 59,
-    title: "Which of the following is a mod in possessed?",
+    title: "Which of the following is not a mod in possessed?",
     options: [
       {
         id: 1,
@@ -1689,7 +1689,7 @@ export const questions: questionParams[] = [
   },
   {
     id: 63,
-    title: "Which of this animator is the latest lab partner ?",
+    title: "Which of this animator is a lab partner ?",
     options: [
       {
         id: 1,
@@ -1716,7 +1716,7 @@ export const questions: questionParams[] = [
   },
   {
     id: 64,
-    title: "Who is a community manager at possessed?",
+    title: "Who is the community manager at possessed?",
     options: [
       {
         id: 1,
@@ -1824,7 +1824,7 @@ export const questions: questionParams[] = [
   },
   {
     id: 68,
-    title: "What was the first  collaboration with the possessed?",
+    title: "Which of the following is in collaboration with the possessed?",
     options: [
       {
         id: 1,
@@ -3471,5 +3471,87 @@ export const questions: questionParams[] = [
       },
     ],
     correctAns: "Dr Chels",
+  },
+  {
+    id: 129,
+    title: "Which of the following is in collaboration with the possessed?",
+    options: [
+      {
+        id: 1,
+        name: "Small Bros",
+        answer: false,
+      },
+      {
+        id: 2,
+        name: "Invisible Friends",
+        answer: true,
+      },
+      {
+        id: 3,
+        name: "DeGods",
+        answer: false,
+      },
+      {
+        id: 4,
+        name: "Aswang",
+        answer: false,
+      },
+    ],
+    correctAns: "Invisible Friends",
+  },
+  {
+    id: 130,
+    title: "On the recent space by @metaverse_hq With @thepossessednft, Tom was reluctant to share further plans the team was having with a partner. What partner was this?",
+    options: [
+      {
+        id: 1,
+        name: "Deekay Motion",
+        answer: true,
+      },
+      {
+        id: 2,
+        name: "Motion Markus",
+        answer: false,
+      },
+      {
+        id: 3,
+        name: "Beekay notion",
+        answer: false,
+      },
+      {
+        id: 4,
+        name: "Frank Degod",
+        answer: false,
+      },
+    ],
+    correctAns: "Deekay Motion",
+  },
+  {
+    id: 131,
+    title: "Who among the following is a dev of the Possessed?",
+    options: [
+      
+      {
+        id: 1,
+        name: "Mr wolf",
+        answer: false,
+      },
+      {
+        id: 2,
+        name: "JarnNft",
+        answer: false,
+      },
+      {
+        id: 3,
+        name: "Zuko",
+        answer: false,
+      },
+      {
+        id: 4,
+        name: "Chrisxvd",
+        answer: true,
+      },
+    ],
+    correctAns: "Chrisxvd",
   },
 ];
