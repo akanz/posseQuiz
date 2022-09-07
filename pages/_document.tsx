@@ -6,15 +6,15 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="#Pssssd quiz brought to you by possesseddevs"
+          content="#Yin Yang quiz brought to you by Yin Yang Devs"
         />
         <meta
           property="og:title"
-          content="The PossessedNft trivia | Test your #posse knowledge"
+          content="The Yin Yang trivia | Test your #Yin Yang knowledge"
         />
         <meta
           property="og:description"
-          content="#Pssssd quiz brought to you by possesseddevs"
+          content="#Yin Yang quiz brought to you by Yin Yang Devs"
         />
         <meta
           property="og:image"
@@ -25,11 +25,11 @@ export default function Document() {
         <meta property="twitter:url" content="https://pssssdtrivia.com/" />
         <meta
           name="twitter:title"
-          content="The PossessedNft trivia | Test your #posse knowledge"
+          content="The Yin Yang trivia | Test your #Yin Yang knowledge"
         />
         <meta
           name="twitter:description"
-          content="#Pssssd quiz brought to you by possesseddevs"
+          content="#Yin Yang quiz brought to you by Yin Yang Devs"
         />
         <meta
           name="twitter:image"
