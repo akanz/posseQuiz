@@ -33,43 +33,38 @@ const Home: NextPage = () => {
   return (
     <div className="relative h-screen">
       <Head>
-        <title>The PossessedNft trivia | Test your #posse knowledge </title>
+        <title>Yin Yang trivia | Test your #yin yang knowledge </title>
       </Head>
 
       <header className="lg:h-1/3 h-1/4 lg:w-3/5 lg:absolute top-0">
-        <Image
-          // width={1000}
-          // height={350}
-          // layout="fill"
-          priority
-          src={ob}
-          alt="Outbreak one"
-        />
       </header>
       <section className="lg:pt-28 absolute w-screen z-10">
-        <div className="header w-11/12 md:w-3/5 lg:w-1/2 mx-auto">
+        <div className="header w-11/12 text-center md:w-3/5 lg:w-1/2 mx-auto">
           <h1 className="text-2xl md:text-4xl text-brown font-extrabold">
-            #PSSSDTRIVIA
+            <span className={styles["yyang-yellow"]}>#Yin Yang</span>
+            <span className={styles["yyang-red"]}> TRIVIA</span>
           </h1>
           <h2 className="text-center text-2xl md:text-4xl text-gray-600 font-bold my-3">
             BY
           </h2>
           <div className="flex justify-end">
-            <Image
+            <h2 className={`text-4xl md:text-7xl font-bold ${styles["yyang-yellow"]}`}>YIN YANG
+              <span className={styles["yyang-red"]}> DEV</span></h2>
+            {/* <Image
               // layout="fill"
               width={400}
               height={100}
               src={"/images/possesseddev.svg"}
               alt="possessed dev"
-            />
+            /> */}
           </div>
-          <div className="text-xl text-center">
-            See how much you know about the Possessed Community
+          <div className="text-xl py-4 text-center">
+            See how much you know about the Yin Yang Community
           </div>
           <div className="p-2 flex justify-center">
             <input
               ref={inputRef}
-              className="bg-transparent text-center outline-none focus:border-0 w-4/5 p-2 text-lg"
+              className="bg-transparent text-center outline-none focus:border-red-500 focus:border-4 w-4/5 p-2 text-lg"
               type="text"
               value={Username}
               onChange={handleInput}
@@ -107,7 +102,6 @@ const Home: NextPage = () => {
         // }}
         className="lg:h-2/3 h-1/4 absolute bottom-0 w-screen"
       >
-        <Image priority layout="fill" src={ob2} alt="Outbreak two" />
       </footer>
     </div>
   );

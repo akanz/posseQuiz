@@ -108,6 +108,14 @@
   margin-left: 0.5rem;
 }
 
+.yyang-yellow {
+  color: #ffa200;
+}
+
+.yyang-red {
+  color: #fd3d3c;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
