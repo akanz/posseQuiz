@@ -20,7 +20,7 @@ body {
 }
 
 .gameOverBtn {
-  @apply bg-black rounded text-white p-2 px-6 m-3;
+  @apply bg-black rounded font-bold text-yyangYellow p-2 px-6 m-3 hover:text-white uppercase;
 }
 
 .notice {

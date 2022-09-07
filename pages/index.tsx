@@ -81,7 +81,7 @@ const Home: NextPage = () => {
                   whileHover={{
                     scale: 1.1,
                   }}
-                  className="bg-gradient-to-b from-lightgreen to-darkgreen text-white font-bold text-3xl py-3 px-8 rounded-xl shadow-xl"
+                  className="bg-black text-yyangYellow font-bold text-3xl py-3 px-8 rounded-xl shadow-xl"
                 >
                   START
                   {/* <Image
