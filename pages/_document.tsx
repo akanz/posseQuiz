@@ -35,7 +35,7 @@ export default function Document() {
           name="twitter:image"
           content="https://i.ibb.co/VTq5dsv/total-Posse.jpg"
         />
-        <link rel="icon" href="/images/pssdLogo.svg" />
+        <link rel="icon" href="/images/yyang.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
