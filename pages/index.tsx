@@ -5,8 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useContext, useEffect, useLayoutEffect, useRef } from "react";
 import { GenerateRandomNumbers } from "../hooks/GenRandom";
-import ob from "../public/images/ob.svg";
-import ob2 from "../public/images/ob2.svg";
+import ob from "../public/images/spraypaint_red.svg";
+import ob2 from "../public/images/spraypaint_yellow.svg";
 import styles from "../styles/Home.module.css";
 import { ContextTypeParams } from "../types";
 import { QuizContext } from "./_app";
@@ -37,6 +37,14 @@ const Home: NextPage = () => {
       </Head>
 
       <header className="lg:h-1/3 h-1/4 lg:w-3/5 lg:absolute top-0">
+        <Image
+          // width={1000}
+          // height={350}
+          // layout="fill"
+          priority
+          src={ob}
+          alt="Outbreak one"
+        />
       </header>
       <section className="lg:pt-28 absolute w-screen z-10">
         <div className="header w-11/12 text-center md:w-3/5 lg:w-1/2 mx-auto">
@@ -48,7 +56,7 @@ const Home: NextPage = () => {
             BY
           </h2>
           <div className="flex justify-end">
-            <h2 className="text-4xl md:text-7xl font-bold text-yyangYellow">YIN YANG
+            <h2 className="text-4xl md:text-7xl font-extrabold text-yyangYellow">YIN YANG
               <span className="text-yyangRed"> DEV</span></h2>
             {/* <Image
               // layout="fill"
@@ -102,6 +110,7 @@ const Home: NextPage = () => {
         // }}
         className="lg:h-2/3 h-1/4 absolute bottom-0 w-screen"
       >
+        <Image priority layout="fill" src={ob2} alt="Spray paint red" />
       </footer>
     </div>
   );
