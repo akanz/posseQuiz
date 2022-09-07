@@ -41,15 +41,15 @@ const Home: NextPage = () => {
       <section className="lg:pt-28 absolute w-screen z-10">
         <div className="header w-11/12 text-center md:w-3/5 lg:w-1/2 mx-auto">
           <h1 className="text-2xl md:text-4xl text-brown font-extrabold">
-            <span className={styles["yyang-yellow"]}>#Yin Yang</span>
-            <span className={styles["yyang-red"]}> TRIVIA</span>
+            <span className="text-yyangYellow">#Yin Yang</span>
+            <span className="text-yyangRed"> TRIVIA</span>
           </h1>
           <h2 className="text-center text-2xl md:text-4xl text-gray-600 font-bold my-3">
             BY
           </h2>
           <div className="flex justify-end">
-            <h2 className={`text-4xl md:text-7xl font-bold ${styles["yyang-yellow"]}`}>YIN YANG
-              <span className={styles["yyang-red"]}> DEV</span></h2>
+            <h2 className="text-4xl md:text-7xl font-bold text-yyangYellow">YIN YANG
+              <span className="text-yyangRed"> DEV</span></h2>
             {/* <Image
               // layout="fill"
               width={400}
