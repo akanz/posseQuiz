@@ -46,8 +46,8 @@ const Game = () => {
   return (
     <div className="flex w-full pt-24 lg:pt-0 items-center">
       {Question && (
-        <div className="border-4 border-black w-11/12 lg:w-3/5 mx-auto">
-          <header className="bg-black text-white flex items-center justify-between p-2 px-4">
+        <div className="border-4 border-yyangYellow w-11/12 lg:w-3/5 mx-auto">
+          <header className="bg-yyangYellow text-white flex items-center justify-between p-2 px-4">
             <div>
               Question {QIndex + 1}/{RandomQuestions.length}
             </div>
