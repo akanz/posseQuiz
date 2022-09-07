@@ -9,7 +9,9 @@ module.exports = {
         wheat: '#FAF2F2',
         brown: '#832F2F',
         darkgreen: '#58942D',
-        lightgreen: '#91D742'
+        lightgreen: '#91D742',
+        yyangYellow: '#ffa200',
+        yyangRed: '#fd3d3c',
       },
       height: {
         "1/10": '10%',
