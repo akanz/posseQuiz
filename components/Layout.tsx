@@ -17,7 +17,7 @@ const Layout = ({ children, img }: Props) => {
             width={"100%"}
             height={"100%"}
             src={img}
-            alt="Animation"
+            alt="yyang nft"
           />
         </div>
       </aside>

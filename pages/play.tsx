@@ -9,8 +9,8 @@ import React, {
 import type { NextPage } from "next";
 
 import { questions, time } from "../constants/questions";
-import Pssd from "../public/images/pssd1.gif";
-import Pssd2 from "../public/images/pssd2.gif";
+import nft from "../public/images/nft.jpg";
+import nft2 from "../public/images/nft2.jpg";
 import { useRouter } from "next/router";
 
 import Layout from "../components/Layout";
@@ -48,7 +48,7 @@ const Play: NextPage = () => {
   }, [QIndex, RandomQuestions]);
 
   return (
-    <Layout img={GameMenu == "start" ? Pssd : Pssd2}>
+    <Layout img={GameMenu == "start" ? nft : nft2}>
       {GameMenu == "start" ? <Game /> : <GameOver />}
     </Layout>
   );
