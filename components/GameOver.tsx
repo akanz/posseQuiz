@@ -58,7 +58,7 @@ const GameOver = () => {
           You scored {Score} out of {RandomQuestions.length}!
         </h1>
         {Score > 3 ? (
-          <h4 className="text-xl">Congratulations! :) You are a true #posse</h4>
+          <h4 className="text-xl">Congratulations! :) You are a worthy foot soldier</h4>
         ) : (
           <h4 className="text-xl">Eeeshhh! {Username}, NGMI Fam</h4>
         )}
@@ -81,7 +81,7 @@ const GameOver = () => {
                   </h3>
 
                   <h3 className="text-lg font-semibold  my-2 border-b border-black p-1">
-                    POTENTIAL TEST SUBJECT
+                    Streetlist worthy
                   </h3>
                 </div>
               </div>
