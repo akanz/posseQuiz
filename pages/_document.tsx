@@ -18,11 +18,11 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://i.ibb.co/VTq5dsv/total-Posse.jpg"
+          content="https://i.ibb.co/Lz9P8Rg/yy.jpg"
         />
 
         <meta name="twitter:card" content="summary" />
-        <meta property="twitter:url" content="https://pssssdtrivia.com/" />
+        <meta property="twitter:url" content="https://yinyangquiz.vercel.app/" />
         <meta
           name="twitter:title"
           content="The Yin Yang trivia | Test your #Yin Yang knowledge"
@@ -33,7 +33,7 @@ export default function Document() {
         />
         <meta
           name="twitter:image"
-          content="https://i.ibb.co/VTq5dsv/total-Posse.jpg"
+          content="https://i.ibb.co/Lz9P8Rg/yy.jpg"
         />
         <link rel="icon" href="/images/yyang.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
